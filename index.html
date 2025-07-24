@@ -45,7 +45,7 @@
 </head>
 
 <body>
-    <nav class="md:flex justify-between items-center w-[80%] mx-auto">
+    <nav class="flex justify-between items-center w-[80%] mx-auto">
         <div class="">
             <img class="w-15 h-15" src="./B12A02-Responsive-Flowers/assets/logo.png" alt="">
         </div>
@@ -67,14 +67,14 @@
 
     <!-- ****************banner section****************** -->
 
-    <div class="md:flex w-[80%] h-[60%] mx-auto mt-28 items-center">
+    <div class="md:flex flex-row-reverse w-[80%] h-[60%] mx-auto mt-28 items-center">
+        <img class="w-[100%]  " src="./B12A02-Responsive-Flowers/assets/hero-flower.png" alt="">
         <div class="space-y-6">
             <h1 class="noto-serif text-6xl">ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span> </h1>
 
             <p class="w-3/5 inter-color inder">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
                 roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
         </div>
-        <img class="w-[100%]  " src="./B12A02-Responsive-Flowers/assets/hero-flower.png" alt="">
     </div>
     <!-- *****************our Plants section******************* -->
     <div class="w-[80%] mx-auto">
@@ -172,7 +172,7 @@
     <div class="md:flex w-[80%] h-[60%] mx-auto mt-28 gap-14 items-center justify-between">
         <div class="w-1/2">
             <div class="relative h-[500px]">
-                <img class="w[100%] absolute w-[200px] h-[200px] -top-24 -right-16"
+                <img class=" absolute w-[200px] h-[200px] -top-24 -right-16"
                     src="./B12A02-Responsive-Flowers/assets/trusted-badge.png" alt="">
                 <img class="w-[100%] h-[500px] " src="./B12A02-Responsive-Flowers/assets/flower-store.png" alt="">
             </div>
@@ -182,11 +182,11 @@
         </div>
         <div class="w-1/2">
             <h1 class="noto-serif text-4xl">Flower & Plants Lover</h1><br>
-            <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic
+            <li class="inter-color inder">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic
                 blooms, we offer a wide variety of fresh.</li><br>
-            <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic
+            <li class="inter-color inder">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic
                 blooms, we offer a wide variety of fresh.</li><br>
-            <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic
+            <li class="inter-color inder">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic
                 blooms, we offer a wide variety of fresh.</li>
         </div>
     </div>
@@ -195,44 +195,55 @@
     <div class="w-[80%] mx-auto">
         <div class="items-center w-1/2 mx-auto mt-24">
             <h1 class="noto-serif text-center text-3xl"><span class="text-[#E95A08]">Latest</span> Deals</h1>
-            <p class="text-center">Indulge your senses with the beauty and fragrance of our fresh flower shop. From
+            <p class="text-center inter-color inder">Indulge your senses with the beauty and fragrance of our fresh flower shop. From
                 classic roses to exotic blooms, we offer a wide variety of fresh.</p>
         </div>
 
         <div class="grid grid-cols-3 gap-5 mt-20">
             <div
                 class="bg-[url('./B12A02-Responsive-Flowers/assets/deal-bloom.png')] bg-cover bg-center py-16 px-11 col-span-1 row-span-1 rounded-lg">
-                <h1>60% Off | Bloom Plant</h1>
-                <a class="underline" href="">Shop Now</a>
+                <h1 class="text-white text-center">60% Off | Bloom Plant</h1>
+                <a class="underline text-white items-center" href="">Shop Now</a>
             </div>
             <div
                 class="bg-[url('./B12A02-Responsive-Flowers/assets/deal-zabo.png')] bg-cover bg-center py-16 px-11 col-span-2 row-span-2 rounded-lg">
-                <h1>60% Off | Bloom Plant</h1>
-                <a class="underline" href="">Shop Now</a>
+                <h1 class="text-white noto-serif text-center text-3xl">25% Off | Zabo Plant</h1>
+                <a class="underline text-white" href="">Shop Now</a>
             </div>
             <div
                 class="bg-[url('./B12A02-Responsive-Flowers/assets/deal-ana.png')] bg-cover bg-center py-16 px-11 col-span-1 row-span-1 rounded-lg">
-                <h1>60% Off | Bloom Plant</h1>
-                <a class="underline" href="">Shop Now</a>
+                <h1 class="text-white text-center">30% Off | Ana  Plant</h1>
+                <a class="underline text-white" href="">Shop Now</a>
             </div>
 
         </div>
     </div>
     <!-- ******************colorful bunch section*************** -->
     <div
-        class="bg-[url('./B12A02-Responsive-Flowers/assets/news-letter-bg.png')] h-72 bg-cover  flex items-center justify-center mt-20 h-[533px]">
+        class="bg-[url('./B12A02-Responsive-Flowers/assets/news-letter-bg.png')] bg-cover  flex items-center justify-center mt-20 h-[533px]">
         <!-- <img src="./B12A02-Responsive-Flowers/assets/news-letter-bg.png" alt=""> -->
         <div class="w-full mx-auto ">
 
-            <h1 class="text-center">Hello</h1>
-            <div class="flex w-full justify-center items-center">
-                <input class="bg-white w-6/12 " type="email" name="" id="">
-                <input class="bg-amber-400" type="button" value="Subscribe">
+            <h1 class="text-center text-white noto-serif text-4xl">Join the colorful Bunch</h1>
+            <div class="flex w-full justify-center items-center mt-9">
+                <input class="bg-white w-6/12 h-10" type="email" name="" id="">
+                <input class="bg-[#E95A08] h-10 w-1/7 text-white text-center" type="button" value="Subscribe">
 
             </div>
         </div>
     </div>
-    <footer></footer>
+    <!-- **************footer section**************** -->
+    <footer>
+      <div>
+        <div></div>
+
+        <div></div>
+
+        <div></div>
+
+        <div></div>
+      </div>
+    </footer>
 </body>
 
 </html>
