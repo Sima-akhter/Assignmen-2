@@ -35,27 +35,33 @@
 
         .inder {
             font-family: "Inder", sans-serif;
-            font-weight: 400;
+            /* font-weight: 400; */
             font-style: normal;
+        }
+        .inter-color{
+            color: #00000080;
         }
     </style>
 </head>
 
 <body>
     <nav class="md:flex justify-between items-center w-[80%] mx-auto">
-        <div class="flex gap-3">
+        <div class="">
             <img class="w-15 h-15" src="./B12A02-Responsive-Flowers/assets/logo.png" alt="">
         </div>
-        <div class="hidden md:block">
-            <ul class="flex gap-4 text-xl">
+        <div class="flex gap-3">
+           <div class="hidden md:block">
+             <ul class="flex gap-4 text-xl">
                 <li class="">Home</li>
-                <li>Shop</li>
-                <li>About us</li>
-                <div class="flex gap-3">
+                <li class="inter-color inder">Shop</li>
+                <li class="inter-color inder">About us</li>
+                
+            </ul>
+           </div>
+            <div class="flex gap-3">
                     <p><i class="fa-solid fa-cart-shopping"></i></p>
                     <p>card ($56)</p>
                 </div>
-            </ul>
         </div>
     </nav>
 
@@ -65,7 +71,7 @@
         <div class="space-y-6">
             <h1 class="noto-serif text-6xl">ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span> </h1>
 
-            <p class="w-3/5">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
+            <p class="w-3/5 inter-color inder">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic
                 roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
         </div>
         <img class="w-[100%]  " src="./B12A02-Responsive-Flowers/assets/hero-flower.png" alt="">
@@ -74,75 +80,89 @@
     <div class="w-[80%] mx-auto">
         <div class="items-center w-1/2 mx-auto mt-24">
             <h1 class="noto-serif text-center text-3xl"><span class="text-[#E95A08]">Our</span> Plants</h1>
-            <p class="text-center">Indulge your senses with the beauty and fragrance of our fresh flower shop. From
+            <p class="text-center inter-color inder">Indulge your senses with the beauty and fragrance of our fresh flower shop. From
                 classic roses to exotic blooms, we offer a wide variety of fresh.</p>
         </div>
 
-        <div class="grid grid-cols-4 mt-10">
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-10 gap-5">
             <div>
                 <img src="./B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="">
                 <div class="items-center">
                     <p class="text-center inder text-xl font-medium text-[#111111]">Lily Blossom</p>
                     <p class="text-center inder font-bold">20 USD</p>
-                    <div class="text-center w-100% bg-amber-500 ">
-                        <button class="inder">ADD TO CART</button>
+                    <div class="text-center w-100% bg-[#E95A08] text-white">
+                        <button class="inder p-3">ADD TO CART</button>
                     </div>
                 </div>
             </div>
             <div>
                 <img src="./B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="">
                 <div class="items-center">
-                    <p>Lily Blossom</p>
-                    <p>20 USD</p>
-                    <button>ADD TO CART</button>
+                    <p class="text-center inder text-xl font-medium text-[#111111]">Lily Blossom</p>
+                    <p class="text-center inder font-bold">20 USD</p>
+                    <div class="text-center w-100% bg-[#E95A08] text-white">
+                        <button class="inder p-3">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="./B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="">
+                 <div class="items-center">
+                    <p class="text-center inder text-xl font-medium text-[#111111]">Lily Blossom</p>
+                    <p class="text-center inder font-bold">20 USD</p>
+                    <div class="text-center w-100% bg-[#E95A08] text-white">
+                        <button class="inder p-3">ADD TO CART</button>
+                    </div>
                 </div>
             </div>
             <div>
                 <img src="./B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="">
                 <div class="items-center">
-                    <p>Lily Blossom</p>
-                    <p>20 USD</p>
-                    <button>ADD TO CART</button>
+                    <p class="text-center inder text-xl font-medium text-[#111111]">Lily Blossom</p>
+                    <p class="text-center inder font-bold">20 USD</p>
+                    <div class="text-center w-100% bg-[#E95A08] text-white">
+                        <button class="inder p-3">ADD TO CART</button>
+                    </div>
                 </div>
             </div>
             <div>
                 <img src="./B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="">
                 <div class="items-center">
-                    <p>Lily Blossom</p>
-                    <p>20 USD</p>
-                    <button>ADD TO CART</button>
+                    <p class="text-center inder text-xl font-medium text-[#111111]">Lily Blossom</p>
+                    <p class="text-center inder font-bold">20 USD</p>
+                    <div class="text-center w-100% bg-[#E95A08] text-white">
+                        <button class="inder p-3">ADD TO CART</button>
+                    </div>
                 </div>
             </div>
             <div>
                 <img src="./B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="">
                 <div class="items-center">
-                    <p>Lily Blossom</p>
-                    <p>20 USD</p>
-                    <button>ADD TO CART</button>
+                    <p class="text-center inder text-xl font-medium text-[#111111]">Lily Blossom</p>
+                    <p class="text-center inder font-bold">20 USD</p>
+                    <div class="text-center w-100% bg-[#E95A08] text-white">
+                        <button class="inder p-3">ADD TO CART</button>
+                    </div>
                 </div>
             </div>
             <div>
                 <img src="./B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="">
                 <div class="items-center">
-                    <p>Lily Blossom</p>
-                    <p>20 USD</p>
-                    <button>ADD TO CART</button>
+                    <p class="text-center inder text-xl font-medium text-[#111111]">Lily Blossom</p>
+                    <p class="text-center inder font-bold">20 USD</p>
+                    <div class="text-center w-100% bg-[#E95A08] text-white">
+                        <button class="inder p-3">ADD TO CART</button>
+                    </div>
                 </div>
             </div>
             <div>
                 <img src="./B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="">
                 <div class="items-center">
-                    <p>Lily Blossom</p>
-                    <p>20 USD</p>
-                    <button>ADD TO CART</button>
-                </div>
-            </div>
-            <div>
-                <img src="./B12A02-Responsive-Flowers/assets/sample-flower-image.png" alt="">
-                <div class="items-center">
-                    <p>Lily Blossom</p>
-                    <p>20 USD</p>
-                    <button>ADD TO CART</button>
+                    <p class="text-center inder text-xl font-medium text-[#111111]">Lily Blossom</p>
+                    <p class="text-center inder font-bold">20 USD</p>
+                    <div class="text-center w-100% bg-[#E95A08] text-white">
+                        <button class="inder p-3">ADD TO CART</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -200,7 +220,7 @@
     </div>
     <!-- ******************colorful bunch section*************** -->
     <div
-        class="bg-[url('./B12A02-Responsive-Flowers/assets/news-letter-bg.png')] h-72 bg-cover  flex items-center justify-center">
+        class="bg-[url('./B12A02-Responsive-Flowers/assets/news-letter-bg.png')] h-72 bg-cover  flex items-center justify-center mt-20 h-[533px]">
         <!-- <img src="./B12A02-Responsive-Flowers/assets/news-letter-bg.png" alt=""> -->
         <div class="w-full mx-auto ">
 
