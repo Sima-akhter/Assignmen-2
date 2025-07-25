@@ -43,9 +43,9 @@
         }
     </style>
 </head>
-
-<body>
-    <nav class="flex justify-between items-center w-[80%] mx-auto">
+        <!-- text-[#F5F8FF] -->
+<body class="">
+    <nav class="flex justify-between items-center w-[80%] mx-auto ">
         <div class="">
             <img class="w-15 h-15" src="./B12A02-Responsive-Flowers/assets/logo.png" alt="">
         </div>
@@ -197,20 +197,30 @@
         </div>
 
         <div class="grid grid-cols-3 gap-5 mt-20">
+
             <div
-                class="bg-[linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('./B12A02-Responsive-Flowers/assets/deal-bloom.png')] bg-cover bg-center py-16 px-11 col-span-1 row-span-1 rounded-lg">
-                <h1 class="text-white text-center">60% Off | Bloom Plant</h1>
+                class="bg-[url('./B12A02-Responsive-Flowers/assets/deal-bloom.png')] bg-cover bg-center py-16 px-11 col-span-1 row-span-1 rounded-lg">
+                <div class="text-center bg-[rgba(0,0,0,0.4)] ">
+                 <h1 class="text-white text-center">60% Off | Bloom Plant</h1>
                 <a class="underline text-white items-center" href="">Shop Now</a>
+                </div>
             </div>
+
+           
+
             <div
                 class="bg-[url('./B12A02-Responsive-Flowers/assets/deal-zabo.png')] bg-cover bg-center py-16 px-11 col-span-2 row-span-2 rounded-lg">
-                <h1 class="text-white noto-serif text-center text-3xl">25% Off | Zabo Plant</h1>
+              <div class="text-center mt-20">
+                  <h1 class="text-white noto-serif text-center text-3xl">25% Off | Zabo Plant</h1>
                 <a class="underline text-white" href="">Shop Now</a>
+              </div>
             </div>
             <div
                 class="bg-[url('./B12A02-Responsive-Flowers/assets/deal-ana.png')] bg-cover bg-center py-16 px-11 col-span-1 row-span-1 rounded-lg">
-                <h1 class="text-white text-center">30% Off | Ana  Plant</h1>
+                <div class="text-center">
+                    <h1 class="text-white text-center">30% Off | Ana  Plant</h1>
                 <a class="underline text-white" href="">Shop Now</a>
+                </div>
             </div>
 
         </div>
@@ -231,14 +241,40 @@
     </div>
     <!-- **************footer section**************** -->
     <footer>
-      <div>
-        <div></div>
+      <div class="w-[80%] mx-auto mt-20 flex justify-between">
+        <div>
+            <img src="./B12A02-Responsive-Flowers/assets/logo.png" alt="">
+            <p>Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+        </div>
 
-        <div></div>
+        <div>
+         <ul class="space-y-4 inter-color inder">
+           <li><a href="">Home</a></li>
+           <li ><a href="">About Us</a></li>
+           <li><a href="">Blog</a></li>
+           <li><a href="">FAQ</a></li>
+           <li><a href="">Contact Us</a></li>
+         </ul>
+        </div>
 
-        <div></div>
+        <div>
+          <ul class="space-y-4 inter-color inder">
+           <li><a href="">Features</a></li>
+           <li><a href="">Pricing</a></li>
+           <li><a href="">Tems of service</a></li>
+           <li><a href="">FAQ</a></li>
+           <li><a href="">Help center</a></li>
+          </ul>
+        </div>
 
-        <div></div>
+        <div>
+           <div class="flex gap-5 w-4/6">
+            <img src="./B12A02-Responsive-Flowers/assets/icon-linkedin.png" alt="">
+            <img src="./B12A02-Responsive-Flowers/assets/icon-twitter.png" alt="">
+            <img src="./B12A02-Responsive-Flowers/assets/icon-facebook.png" alt="">
+            <img src="./B12A02-Responsive-Flowers/assets/icon-youtube.png" alt="">
+           </div>
+        </div>
       </div>
     </footer>
 </body>
